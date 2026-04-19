@@ -2,27 +2,27 @@ class Skillx < Formula
   desc "npx for Agent Skills — fetch, scan, inject, run, clean in one command"
   homepage "https://skillx.run"
   license "Apache-2.0"
-  version "0.8.1"
+  version "0.8.2"
 
   on_macos do
     on_arm do
       url "https://github.com/skillx-run/skillx/releases/download/v#{version}/skillx-aarch64-apple-darwin.tar.gz"
-      sha256 "e2f7d79e240c5b30078bb7e9c9cde1af883858eba69d5de8e42745aa2ecf1fc6"
+      sha256 "3ab5a161575c4fb9934f421171b3a83ab78ae1d12aa9288cde7ea9b29bb7004e"
     end
     on_intel do
       url "https://github.com/skillx-run/skillx/releases/download/v#{version}/skillx-x86_64-apple-darwin.tar.gz"
-      sha256 "f929af1535b5e187d7848b530be63c5c6d8dc6dffca02b209cc8250a91abea3e"
+      sha256 "16a76fce1f31a16bcef934965688352de25780ab07b0b4db94a504c447799a4e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/skillx-run/skillx/releases/download/v#{version}/skillx-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ccac5b4312a8a634ca98f14eb5482ebd11eebefdffa1650a8351554d334cb907"
+      sha256 "cbf0b312d26785a3e0154ff03c55d4640540638361233ad36c1a0e3d172b6af6"
     end
     on_intel do
       url "https://github.com/skillx-run/skillx/releases/download/v#{version}/skillx-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "acd170378c10665474cf31b45be9dc16eb78da8243bbed97f7afa05f4481872f"
+      sha256 "f67f117c845a403854c5dafecaed48879f9f5756c30614e67c60b90b2417c43a"
     end
   end
 
